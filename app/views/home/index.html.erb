@@ -1,0 +1,13 @@
+<span>오늘의 멋또</span><br>
+
+<img src = "http://www.nlotto.co.kr//img/common_new/ball_<%= @lotto.at(0)%>.png">
+<img src = "http://www.nlotto.co.kr//img/common_new/ball_<%= @lotto.at(1)%>.png">
+<img src = "http://www.nlotto.co.kr//img/common_new/ball_<%= @lotto.at(2)%>.png">
+<img src = "http://www.nlotto.co.kr//img/common_new/ball_<%= @lotto.at(3)%>.png">
+<img src = "http://www.nlotto.co.kr//img/common_new/ball_<%= @lotto.at(4)%>.png">
+<img src = "http://www.nlotto.co.kr//img/common_new/ball_<%= @lotto.at(5)%>.png">
+
+<h3>로또 번호는 <%= @draw_numbers%>입니다. 보너스 번호는 <%= @bonus_number%>입니다></h3>
+<h4>귀하의 번호는 <%=@lotto%>이고, 일치하는 번호는 <%= @match_numbers%>입니다.</h4>
+<br>
+<h1><%= @result%></h1>
